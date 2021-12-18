@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-image: url(../images/Виски.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+.header {
+  padding: 40px 0;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 150px;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.items{
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.slider {
+}
+
+.slider-title {
+  margin-bottom: 15px;
+  
+}
+
+.slider-title {
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 141px;
+}
+
+.text {
+  margin-bottom: 45px;
+  width: 670px;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.slick-dots {
+ display: flex;
+}
+
+.slick-dots li {
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.slick-dots li:not(:last-child) {
+ margin-right: 20px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+}
